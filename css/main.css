@@ -1,7 +1,57 @@
-body {background-color: #F44336; font-family: verdana;}
-h1 {color: #FFEE58; font-size: xxlarge; text-decoration: underline; text-align: center;}
-h2 {color: #CDDC39; font-size: x-large;text-align: left;}
-ul {color: #3E2723; font-size:  large; text-align: left;}
-ol {color: #424242; font-size:  large; text-align: justify;}
-p {color: #004D40; font-size:  large; text-align: justify;}
-img {width: 800px; height: auto;}
+body {width: 1340px;
+  height: 1000px
+  background-color: #F44336;
+  background-color: #E6EE9C;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: century gothic;}
+  h1 {color: #F48FB1; font-size: xxlarge; text-decoration: underline; text-align: center;}
+  h2 {color: #CDDC39; font-size: x-large;text-align: left;}
+  ul {color: #3E2723; font-size:  medium; text-align: left;}
+  ol {color: #424242; font-size:  medium; text-align: justify;}
+  p {color: #004D40; font-size medium; text-align: justify;}
+  img {width: 500px; height: auto}
+  header {width: 1340px;
+    height: 200px;
+    background-color: #CDDC39}
+    nav {width: 1340px;
+      height: 150px;
+      background-color:#DCE775;
+      }
+      .icono {
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 25px
+      }
+      .icono:hover {
+        transform: scale(1.1);
+        transition: 0.3s
+      }
+      .icono img {
+        width: 45px;
+        height: 45px;
+        }
+    footer {width: 1340px;
+      height: 150px;
+      background-color:#DCE775;
+    }
+    .redes {
+      padding: 30px;
+      height: 45px
+    }
+    .sociales {
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      }
+    .sociales li {
+      display: inline-block;
+    }
+    .sociales img {
+      padding: 10px;
+      width: 45px;
+      height: 45px;
+      }
