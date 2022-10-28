@@ -5,18 +5,55 @@ body {width: 1340px;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: century gothic;}
-  h1 {color: #F48FB1; font-size: xxlarge; text-decoration: underline; text-align: center;}
+  h1 {color: #F48FB1; font-size: xxlarge; text-decoration: underline;}
+  .receta {
+    text-align: center;
+  }
   h2 {color: #CDDC39; font-size: x-large;text-align: left;}
   ul {color: #3E2723; font-size:  medium; text-align: left;}
   ol {color: #424242; font-size:  medium; text-align: justify;}
   p {color: #004D40; font-size medium; text-align: justify;}
   img {width: 500px; height: auto}
-  header {width: 1340px;
-    height: 200px;
-    background-color: #CDDC39}
-    nav {width: 1340px;
-      height: 150px;
-      background-color:#DCE775;
+
+  header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 20vh;
+        background-color: #CDDC39}
+
+.logo {
+        width: 10vw;
+        height: 15vh;
+        margin: 10px;
+  }
+
+.titulo {
+          text-align: center;
+          width: 30%;
+          font-size: 2em;
+          margin: 10px;
+}
+
+.rrss{
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.iconos img {
+  width: 8vw;
+  height: 12vh;
+  }
+
+      nav {display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 1340px;
+          height: 5vw;
+          background-color:#DCE775;
       }
       .icono {
         position: fixed;
@@ -31,27 +68,31 @@ body {width: 1340px;
         transition: 0.3s
       }
       .icono img {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         }
-    footer {width: 1340px;
+
+.andalucia {
+  width: 40vw;
+  height:50vh;
+}
+
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 1340px;
       height: 150px;
       background-color:#DCE775;
+      justify-content: space-around;
+      align-items: center;
     }
-    .redes {
-      padding: 30px;
-      height: 45px
-    }
-    .sociales {
-      text-align: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      }
-    .sociales li {
-      display: inline-block;
-    }
-    .sociales img {
-      padding: 10px;
-      width: 45px;
-      height: 45px;
-      }
+
+.barrio {
+        height: 100%;
+        width: 25%;
+        margin: 10px;
+}
+.contacto {
+    font-size: small;
+}
