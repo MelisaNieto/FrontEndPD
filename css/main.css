@@ -1,19 +1,18 @@
-body {width: 1340px;
-  height: 1000px
+body {
   background-color: #F44336;
   background-color: #E6EE9C;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: century gothic;}
-  h1 {color: #F48FB1; font-size: xxlarge; text-decoration: underline;}
+  h1 {color: #F48FB1; font-size: 2rem; text-decoration: underline;}
   .receta {
     text-align: center;
   }
-  h2 {color: #CDDC39; font-size: x-large;text-align: left;}
-  ul {color: #3E2723; font-size:  medium; text-align: left;}
-  ol {color: #424242; font-size:  medium; text-align: justify;}
-  p {color: #004D40; font-size medium; text-align: justify;}
-  img {width: 500px; height: auto}
+  h2 {color: #CDDC39; font-size: 1rem;text-align: left;}
+  ul {color: #3E2723; font-size:  1rem; text-align: left;}
+  ol {color: #424242; font-size:  1em; text-align: justify;}
+  p {color: #004D40; font-size: 1em; text-align: justify;}
+  img {width: 25%; height: 20%;}
 
   header {
         display: flex;
@@ -24,14 +23,14 @@ body {width: 1340px;
         background-color: #CDDC39}
 
 .logo {
-        width: 100px;
-        height: 100px;
+        width: 10%;
+        height: 10%;
         margin: 10px;
   }
 
 .titulo {
           text-align: center;
-          font-size: 2em;
+          font-size: 3rem;
           margin: 10px;
 }
 
@@ -53,6 +52,9 @@ body {width: 1340px;
           height: 5vw;
           background-color:#DCE775;
       }
+
+
+
       .icono {
         position: fixed;
         z-index: 999;
@@ -79,8 +81,6 @@ body {width: 1340px;
     footer {
       display: flex;
       flex-wrap: wrap;
-      width: 1340px;
-      height: 150px;
       background-color:#DCE775;
       justify-content: space-around;
       align-items: center;
@@ -91,5 +91,5 @@ body {width: 1340px;
         width: 300px;
         }
 .contacto {
-    font-size: small;
+    font-size: 1rem;
 }
