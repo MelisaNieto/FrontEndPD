@@ -7,19 +7,29 @@ body {
   h1 {color: #F48FB1; font-size: 2rem; text-decoration: underline;}
   .receta {
     text-align: center;
-  }
+    font-family: "titulosh1"; }
   h2 {color: #CDDC39; font-size: 1rem;text-align: left;}
-  ul {color: #3E2723; font-size:  1rem; text-align: left;}
-  ol {color: #424242; font-size:  1em; text-align: justify;}
-  p {color: #004D40; font-size: 1em; text-align: justify;}
+  ul {color: #3E2723; font-size:  1rem; text-align: left; font-family: 'Fasthand', cursive;}
+  ol {color: #424242; font-size:  1em; text-align: justify;font-family: 'Fasthand', cursive;}
+  p {color: #212121; font-size: 1em; text-align: justify; font-family: 'Raleway', sans-serif;}
   img {width: 25%; height: 20%;}
+
+  @font-face {
+    font-family: "titulosh1"; src: url("../fuentes/RamadhanMubarak.ttf");
+  format: "truetype";
+  }
+
+  @font-face {
+    font-family: "tituloprincipal"; src: url("../fuentes/Gamaleon.ttf");
+  format: "truetype";
+  }
 
   header {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        min-height: 20vh;
+        height: 20%;
         background-color: #CDDC39}
 
 .logo {
@@ -32,7 +42,7 @@ body {
           text-align: center;
           font-size: 3rem;
           margin: 10px;
-}
+          font-family: "tituloprincipal";}
 
 .rrss{
       display: flex;
@@ -41,8 +51,8 @@ body {
 }
 
 .iconos img {
-  width: 80px;
-  height: 80px;
+  width: 6vw;
+  height: 12vh;
   }
 
       nav {display: flex;
@@ -68,8 +78,8 @@ body {
         transition: 0.3s
       }
       .icono img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         }
 
 .andalucia {
@@ -84,11 +94,12 @@ body {
       background-color:#DCE775;
       justify-content: space-around;
       align-items: center;
+      height: 20%;
     }
 
 .barrio {
-        height: 150px;
-        width: 300px;
+        height: 15%;
+        width: 30%;
         }
 .contacto {
     font-size: 1rem;
