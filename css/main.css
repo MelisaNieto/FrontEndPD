@@ -1,9 +1,10 @@
 body {
-  background-color: #F44336;
   background-color: #E6EE9C;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: century gothic;}
+  font-family: century gothic;
+}
+
   h1 {color: #F48FB1; font-size: 2rem; text-decoration: underline;}
   .receta {
     text-align: center;
@@ -14,6 +15,14 @@ body {
   p {color: #212121; font-size: 1em; text-align: justify; font-family: 'Raleway', sans-serif;}
   img {width: 25%; height: 20%;}
 
+@media (min-width:767px) {.aviso
+  {display: none;}
+  }
+
+@media (min-width: 992px) {.imagen2
+  {display: none;}
+
+}
   @font-face {
     font-family: "titulosh1"; src: url("../fuentes/RamadhanMubarak.ttf");
   format: "truetype";
@@ -51,8 +60,8 @@ body {
 }
 
 .iconos img {
-  width: 6vw;
-  height: 12vh;
+  width: 90px;
+  height: 90px;
   }
 
       nav {display: flex;
@@ -62,8 +71,6 @@ body {
           height: 5vw;
           background-color:#DCE775;
       }
-
-
 
       .icono {
         position: fixed;
@@ -83,11 +90,14 @@ body {
         }
 
 .andalucia {
-  width: 40vw;
-  height:50vh;
+  width: 25%;
+  height: 40%;
 }
 
-
+.video {
+  width: 25%;
+  height: 40%;
+}
     footer {
       display: flex;
       flex-wrap: wrap;
@@ -103,4 +113,19 @@ body {
         }
 .contacto {
     font-size: 1rem;
+}
+
+@media (max-width: 767px) {body
+  {background-color: #F8C471}
+
+}
+
+@media (min-width: 768px) {body
+  {background-color: #D2B4DE }
+
+}
+
+@media (min-width: 992px) {body
+  {background-color: #E6EE9C }
+
 }
